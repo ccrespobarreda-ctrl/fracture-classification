@@ -18,12 +18,12 @@ print("Using device:", device)
 from google.colab import drive
 drive.mount("/content/drive")
 
-# Project root directory (update if needed)
+# Project root directory
 PROJECT_ROOT = "/content/drive/MyDrive/FRACTURAS"
 LOCAL_ROOT = "/content/FRACTURAS"
 
 # =========================================
-# Path Validation (Best Practice)
+# Path Validation
 # =========================================
 def assert_exists(path, kind="file"):
     if kind == "file" and not os.path.isfile(path):
