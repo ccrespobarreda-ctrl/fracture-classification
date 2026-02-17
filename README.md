@@ -112,10 +112,12 @@ Steps to reproduce:
 
 ```
 fracture-classification/
-|
-├── notebook.ipynb        # Main Colab notebook
-├── README.md             # Project documentation
-└── requirements.txt      # Dependencies (optional)
+│
+├── notebooks/        # Notebooks de Colab (EDA, modelado)
+├── data/             # Dataset 
+├── images/           # Ejemplos de rayos X 
+├── README.md         # Documentación
+└── requirements.txt  # Dependencias (opcional)
 ```
 
 ## ⚠️ Note on Medical Data
