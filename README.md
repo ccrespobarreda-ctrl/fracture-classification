@@ -89,6 +89,12 @@ Evaluation metrics:
 
 ---
 
+## 📈 Evaluation (Imbalanced Dataset)
+Model performance is evaluated using ROC-AUC and PR-AUC (Average Precision), which are more informative under class imbalance.  
+A decision threshold is selected by maximizing **recall** under a minimum **specificity constraint** (clinical-inspired criterion).
+
+---
+
 ## 📈 Results & Insights
 - The model is capable of detecting fractures from medical X-ray images.
 - Data preprocessing and image normalization significantly impacted model performance.
