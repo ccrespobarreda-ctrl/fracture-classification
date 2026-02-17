@@ -95,6 +95,19 @@ A decision threshold is selected by maximizing **recall** under a minimum **spec
 
 ---
 
+## ✅ Test Results (Fixed Threshold)
+Threshold selected on validation set and evaluated on an unseen test set:
+
+- Accuracy: 0.856  
+- Recall (Sensitivity): 0.778  
+- Specificity: 0.872  
+- Precision: 0.566  
+- F1-score: 0.655  
+- ROC-AUC: 0.882  
+- PR-AUC: 0.700  
+
+---
+
 ## 📈 Results & Insights
 - The model is capable of detecting fractures from medical X-ray images.
 - Data preprocessing and image normalization significantly impacted model performance.
